@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Lớp dữ liệu đơn giản đại diện cho món tráng miệng. Bao gồm số nguyên id tài nguyên được liên kết với
      * hình ảnh, giá mà nó được bán và startProductionAmount, xác định thời điểm
-     * món tráng miệng bắt đầu được sản xuất.
+     * món tráng miệng bắt đầu được sản xuất
      */
     data class Dessert(val imageId: Int, val price: Int, val startProductionAmount: Int)
 
